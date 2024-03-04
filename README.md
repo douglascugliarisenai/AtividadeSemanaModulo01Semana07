@@ -14,5 +14,3 @@
 
 </br>
 </br>
-
-📌<b style="color: red; font-size: 15px"> Exercícios 05, 06 e 09 foi relacionado a versionamento no Git.</b>
