@@ -17,13 +17,13 @@ html, body {
 
 .sidebar{
     display: flex;
-    width: 200px;
+    width: 150px;
     height: 100%;
     background-color: cadetblue;
 }
 
 #menu-sidebar {
-    margin-top: 100px;
+    margin-top: 35px;
 }
 
 #menu-sidebar li{

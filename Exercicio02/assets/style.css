@@ -1,0 +1,52 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+                        'header header header'
+                        'sidebar content content';
+grid-template-rows: 70px 1fr;
+grid-template-columns: 260 1fr;
+height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: cadetblue;
+  height: 100vh;
+  width: 150px;
+}
+
+#menu-sidebar {
+    margin-top: 35px;
+}
+
+#menu-sidebar li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+#menu-sidebar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.content {
+  grid-area: content;
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-right: 50px;
+}
