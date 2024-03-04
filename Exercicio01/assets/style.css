@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container .content{
+    position: absolute;
+    margin-top: 125px;
+}
+
+.sidebar{
+    display: flex;
+    width: 200px;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+#menu-sidebar {
+    margin-top: 100px;
+}
+
+#menu-sidebar li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+#menu-sidebar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+}
+
+.content {
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
