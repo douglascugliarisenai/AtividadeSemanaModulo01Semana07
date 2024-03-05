@@ -1,0 +1,152 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    144deg,
+    rgba(170, 178, 223, 1) 0%,
+    rgba(252, 245, 255, 1) 78%,
+    rgba(203, 130, 232, 1) 100%
+  );
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 700px;
+  width: 950px;
+  border-radius: 5%;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15px;
+  color: grey;
+  flex: 1;
+  height: 100%;
+}
+
+.register span {
+  margin-left: 50px;
+}
+
+.register img{
+  margin-top: 15px;
+  margin-left: 150px;
+  width: 250px;
+  height: 350px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+}
+
+.inputs .input {
+  height: 36px;
+  padding-left: 6px;
+  border-radius: 10px;
+  border: 1.75px solid #ececec;
+  margin-bottom: 15px;
+}
+
+.inputs a {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 15px;
+  margin-left: 160px;
+  font-size: 11px;
+}
+
+.inputs button {
+  color: white;
+  background-color: rgb(76, 102, 250);
+  box-shadow: 0px 1px 20px rgb(76, 102, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding-left: 6px;
+  border-radius: 10px;
+  border: 1.75px solid rgb(76, 102, 250);
+  margin-bottom: 10px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.input {
+  width: 250px;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  flex-direction: row;
+  width: 250px;
+}
+.or hr {
+  flex: 1;
+}
+
+.or p {
+  font-size: 10px;
+  color: rgb(145, 141, 141);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.socials {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.socials button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: none;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1.75px solid #ececec;
+  width: 250px;
+  color: rgb(76, 102, 250);;
+}
+
+.socials img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.fs-50 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
